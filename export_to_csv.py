@@ -37,4 +37,4 @@ def exportDaysToCsv(start_date, end_date):
     print df_out
     df_out.to_csv("./sentiment_analysis.csv")
 
-exportDaysToCsv("2014-02-02", "2014-11-30")
+exportDaysToCsv("2014-02-02", "2014-12-09")
